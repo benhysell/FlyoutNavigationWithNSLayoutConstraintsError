@@ -21,14 +21,10 @@ namespace Sample
         public MyViewController(FlyoutNavigationController navigation)
             : base()
 		{
-			//this.weightRepository = weightRepository;
-			//TODO change this icon to something different, lines in a box for all view controllers
-
 			this.NavigationItem.LeftBarButtonItem = new UIBarButtonItem(UIBarButtonSystemItem.Action , delegate
 			{
 				navigation.ToggleMenu();
-			});
-			//InitializeView ();    
+			});			
 
 		}
 
